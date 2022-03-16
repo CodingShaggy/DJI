@@ -1,0 +1,263 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Zilla Slab', serif;
+}
+
+body{
+    background-color: #EFEFEF;
+}
+
+.header{
+    width: 100%;
+    height: 10vh;
+    background-color: #EFEFEF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    height: 9vh;
+    width: auto;
+    margin-left: 10px;
+}
+
+button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 110px;
+    height: 25px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 15px 15px;
+    font-weight: 600;
+}
+
+button img{
+    width: 20px;
+    height: auto;
+}
+
+.user{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.nav{
+    display: flex;
+    width: 200px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.area{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container1{
+    width: 350px;
+    height: 85vh;
+    background: rgba(255, 255, 255, 0.5);
+    border: 3px solid white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container1:hover{
+    background-color: white;
+}
+
+.container1img{
+    width: 70%;
+    height: auto;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.text{
+    width: 85%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.btn{
+    width: 70%;
+    border: 4px solid black;
+    background-color: #D1D1D1;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 600; 
+    margin-top:  15px;
+    text-align: center;
+}
+
+.btn:hover{
+    background-color: white;
+}
+
+h3{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.container2{
+    width: 60%;
+    height: 85vh;
+    /*background-color: white;*/
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1{
+    width: 700px;
+    height: 300px;
+    background-image: url(images/djimavic3.jpeg);
+    background-position: center;
+    border: 3px solid black;
+    background-size: cover;
+    border-radius: 20px;
+    margin-bottom: 20px;
+
+}
+
+.btn1{
+    width: 135px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 15px 25px 15px 25px;
+    font-weight: 600; 
+    margin: auto;
+    text-align: center;
+    margin-top:  50px;
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+h4{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.box2{
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.product{
+    width: 250px;
+    height: 250px;
+    background: rgba(255, 255, 255, 0.5);
+    border: 3px solid white;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.product:hover{
+    background-color: white;
+}
+
+.product img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+h2{
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width:600px){
+    .box1{
+        display: none;
+    }
+
+    .box2{
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .container2{
+        width: 270px;
+        height: auto;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .container1{
+        width: 250px;
+        height: auto;
+        padding: 20px 0px;
+        /*background-color: white;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;*/
+
+    }
+}
+
+@media (max-width:1100px){
+    .box1{
+        display: none;
+    }
+    .box2{
+        width: 90%;
+        height: auto;
+       /* background-color: white;*/
+        border-radius: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
